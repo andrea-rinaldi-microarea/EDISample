@@ -21,18 +21,31 @@ namespace EDISample
                 while (interpreter.MoreMessages())
                 {
                     var composer = new XMLComposer("Items", process, interpreter);
-                    var items = new XElement("Items");
+                    var items = composer.CreateNode("Items");
                     composer.AddField(items,"Item");
                     composer.AddField(items,"SaleBarCode");
                     composer.AddField(items,"Description");
                     composer.AddField(items,"UseSerialNo");
                     composer.AddNode(items);
 
-                    var goods = new XElement("GoodsData");
+                    var goods = composer.CreateNode("GoodsData");
                     composer.AddField(goods,"NetWeight");
                     composer.AddField(goods,"GrossWeight");
                     composer.AddField(goods,"GrossVolume");
                     composer.AddNode(goods);
+
+                    var uom = composer.CreateNode("AlternativeUoM");
+                    int child = 1;
+                    while (composer.HasMappings(uom,"AlternativeUoMRow", child))
+                    {
+                        var row = composer.CreateNode("AlternativeUoMRow");
+                        composer.AddField(row,"ComparableUoM", "AlternativeUoM", child);
+                        composer.AddField(row,"BaseUoMQty", "AlternativeUoM", child);
+                        composer.AddField(row,"CompUoMQty", "AlternativeUoM", child);
+                        uom.Add(row);
+                        child++;
+                    }
+                    composer.AddNode(uom);
 
                     var doc = composer.GetDocument();
 
