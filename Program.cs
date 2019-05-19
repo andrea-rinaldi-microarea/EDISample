@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Text;
+using System.Xml;
+using System.Xml.Linq;
 using CsvHelper;
 using EDI;
 using Newtonsoft.Json;
@@ -18,18 +20,25 @@ namespace EDISample
             {
                 while (interpreter.MoreMessages())
                 {
-                    foreach (EDI.Mapping map in process.mappings)
-                    {
-                        var value = interpreter.GetValue(map.rule);
-                        if (value != null)
-                        {
-                            Console.WriteLine(map.target + " = " + value);
-                        }
-                        else
-                        {
-                            Console.WriteLine(map.target + " = [empty]");
-                        }
-                    }
+                    var composer = new XMLComposer("Items", process, interpreter);
+                    var items = new XElement("Items");
+                    composer.AddField(items,"Item");
+                    composer.AddField(items,"SaleBarCode");
+                    composer.AddField(items,"Description");
+                    composer.AddField(items,"UseSerialNo");
+                    composer.AddNode(items);
+
+                    var goods = new XElement("GoodsData");
+                    composer.AddField(goods,"NetWeight");
+                    composer.AddField(goods,"GrossWeight");
+                    composer.AddField(goods,"GrossVolume");
+                    composer.AddNode(goods);
+
+                    var doc = composer.GetDocument();
+
+                    string fname = Path.GetTempFileName();
+                    doc.Save(fname);
+                    Console.WriteLine(File.ReadAllText(fname)); 
                 }
             }
         }

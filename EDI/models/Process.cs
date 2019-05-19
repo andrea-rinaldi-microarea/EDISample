@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace EDI
 {
     public class Process
@@ -8,6 +10,6 @@ namespace EDI
         public string document {get; set; }
         public string profile {get; set; }
         public Roots roots {get; set;}
-        public Mapping[] mappings {get; set;}
+        public List<Mapping> mappings {get; set;}
     }
 }
