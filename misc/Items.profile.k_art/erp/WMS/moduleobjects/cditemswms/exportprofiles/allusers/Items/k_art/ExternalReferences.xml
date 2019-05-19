@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MainExternalReferences>
+	<DBT namespace="erp.wms.addonsitems.CDItemsWMS.WMSItems">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="erp.wms.addonsitems.CDItemsWMS.WMSItemsWMSZones">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+</MainExternalReferences>

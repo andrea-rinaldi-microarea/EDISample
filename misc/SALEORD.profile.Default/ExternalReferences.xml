@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MainExternalReferences>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.SaleOrder">
+    <Export>1</Export>
+    <ExternalReferences>
+      <ExternalReference nodocquery="0">
+        <Name>Customer</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>0</SubjectTo>
+        <DataUrl>Customer.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+      <ExternalReference nodocquery="0">
+        <Name>InvoicingCustomer</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>0</SubjectTo>
+        <DataUrl>InvoicingCustomer.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+      <ExternalReference nodocquery="0">
+        <Name>CustSpecificator1</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>1</SubjectTo>
+        <Expression>MA_SaleOrd.Specificator1Type == {103:0}</Expression>
+        <DataUrl>CustSpecificator1.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+      <ExternalReference nodocquery="0">
+        <Name>SuppSpecificator1</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>1</SubjectTo>
+        <Expression>MA_SaleOrd.Specificator1Type  == {103:1}</Expression>
+        <DataUrl>SuppSpecificator1.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+      <ExternalReference nodocquery="0">
+        <Name>CustSpecificator2</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>1</SubjectTo>
+        <Expression>MA_SaleOrd.Specificator2Type == {103:0}</Expression>
+        <DataUrl>CustSpecificator2.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+      <ExternalReference nodocquery="0">
+        <Name>SuppSpecificator2</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>1</SubjectTo>
+        <Expression>MA_SaleOrd.Specificator2Type   == {103:1}</Expression>
+        <DataUrl>SuppSpecificator2.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.Detail">
+    <Export>1</Export>
+    <ExternalReferences>
+      <ExternalReference nodocquery="0">
+        <Name>Item</Name>
+        <MustExist>1</MustExist>
+        <NullAllowed>1</NullAllowed>
+        <SubjectTo>0</SubjectTo>
+        <DataUrl>Item.xml</DataUrl>
+        <ProfileName>DefaultLight</ProfileName>
+        <UniversalKeys export="1">
+        </UniversalKeys>
+      </ExternalReference>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.Charges">
+    <Export>1</Export>
+    <ExternalReferences>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.Shipping">
+    <Export>1</Export>
+    <ExternalReferences>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.TaxSummary">
+    <Export>1</Export>
+    <ExternalReferences>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.Notes">
+    <Export>1</Export>
+    <ExternalReferences>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.PymtSchedule">
+    <Export>1</Export>
+    <ExternalReferences>
+    </ExternalReferences>
+  </DBT>
+  <DBT namespace="ERP.SaleOrders.Documents.SaleOrd.References">
+    <Export>0</Export>
+    <ExternalReferences>
+    </ExternalReferences>
+  </DBT>
+</MainExternalReferences>

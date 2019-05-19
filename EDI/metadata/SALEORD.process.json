@@ -1,0 +1,118 @@
+{
+    "title": "Sale Orders transmission",
+    "type": "export",
+    "message": "EURITMO-ORDERS",
+    "document": "ERP.SaleOrd.SaleOrd",
+    "profile": "Default",
+    "roots": {
+        "heading": "SaleOrd/Data",
+        "detail": "SaleOrd/Data/Detail/DetailRow[%%LINE%%]"
+    },
+    "mappings": [
+        {
+            "target": "BGM.ID-EDI-MITT-1",
+            "rule": {
+                "type": "environment",
+                "value": "Company/TaxIdNumber"
+            }
+        },
+        {
+            "target": "BGM.ID-EDI-DEST-1",
+            "rule": {
+                "type": "data",
+                "value": "SaleOrder/Customer/CustomersSuppliers/TaxIdNumber"
+            }
+        },
+        {
+            "target": "BGM.TIPODOC",
+            "rule": {
+                "type": "literal",
+                "value": "ORDERS"
+            }
+        },
+        {
+            "target": "BGM.NUMDOC",
+            "rule": {
+                "type": "data",
+                "value": "SaleOrder/InternalOrdNo"
+            }
+        },
+        {
+            "target": "BGM.DATADOC",
+            "rule": {
+                "type": "data",
+                "value": "SaleOrder/OrderDate"
+            }
+        },
+        {
+            "target": "NAS.CODFORN",
+            "rule": {
+                "type": "environment",
+                "value": "Company/TaxIdNumber"
+            }
+        },
+        {
+            "target": "NAS.QCODFORN",
+            "rule": {
+                "type": "literal",
+                "value": "VA"
+            }
+        },
+        {
+            "target": "NAS.RAGSOCF",
+            "rule": {
+                "type": "environment",
+                "value": "Company/CompanyName"
+            }
+        },
+        {
+            "target": "LIN.NUMRIGA",
+            "rule": {
+                "type": "data",
+                "value": "Line"
+            }
+        },
+        {
+            "target": "LIN.CODEANCU",
+            "rule": {
+                "type": "data",
+                "value": "Item/SaleBarCode"
+            }
+        },
+        {
+            "target": "LIN.TIPCODCU",
+            "rule": {
+                "type": "literal",
+                "value": "EN"
+            }
+        },
+        {
+            "target": "LIN.DESART",
+            "rule": {
+                "type": "data",
+                "value": "Description"
+            }
+        },
+        {
+            "target": "LIN.QTAORD",
+            "rule": {
+                "type": "data",
+                "value": "Qty"
+            }
+        },
+        {
+            "target": "LIN.UDMQORD",
+            "rule": {
+                "type": "crossCoding",
+                "value": "UoM"
+            }
+        },
+        {
+            "target": "LIN.PRZUNI",
+            "rule": {
+                "type": "data",
+                "value": "UnitValue"
+            }
+        }
+    ]
+}

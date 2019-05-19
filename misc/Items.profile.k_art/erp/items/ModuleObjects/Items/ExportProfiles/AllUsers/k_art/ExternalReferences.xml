@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MainExternalReferences>
+	<DBT namespace="ERP.Items.Documents.Items.Items">
+		<Export>1</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.GoodsData">
+		<Export>1</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.Intrastat">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.AlternativeUoM">
+		<Export>1</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.SubstituteItems">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.PurchaseBarCode">
+		<Export>1</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.Manufacturing">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.Notes">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.ProductsComposition">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.ItemsBRTaxes">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.BRFiscalCtgItems">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+</MainExternalReferences>

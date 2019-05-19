@@ -1,0 +1,210 @@
+{
+    "name": "EURITMO-ORDERS",
+    "layout": {
+        "heading": [
+            {
+                "name": "BGM",
+                "title": "Record BGM – Informazioni obbligatorie di inizio documento",
+                "mandatory": true,
+                "maxOccurs": 1,
+                "fields": [
+                    {
+                        "name": "TIPOREC",
+                        "title": "Tipo record",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": true,
+                        "predefined": "BGM"
+                    },
+                    {
+                        "name": "ID-EDI-MITT-1",
+                        "title": "Identificativo EDI del mittente",
+                        "type": "text",
+                        "maxLength": 35,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "ID-EDI-DEST-1",
+                        "title": "Identificativo EDI del destinatario",
+                        "type": "text",
+                        "maxLength": 35,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "TIPODOC",
+                        "title": "Tipo documento",
+                        "type": "text",
+                        "maxLength": 6,
+                        "mandatory": true,
+                        "values": ["ORDCHG", "ORDERS", "ORDPRP", "ORDRSP", "ORDSLS"],
+                        "default": "ORDERS"
+                    },
+                    {
+                        "name": "NUMDOC",
+                        "title": "Numero Documento",
+                        "type": "text",
+                        "maxLength": 35,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "DATADOC",
+                        "title": "Data Documento",
+                        "type": "date",
+                        "mandatory": true
+                    },
+                    {
+                        "name": "TIPORD",
+                        "title": "Identificativo tipo ordine ",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": false,
+                        "values": ["", "105", "221", "224", "226", "231", "YA9"],
+                        "default": ""
+                    }
+                ]
+            },
+            {
+                "name": "RFF",
+                "title": "Record RFF – Informazioni di riferimento a livello di documento",
+                "mandatory": false,
+                "maxOccurs": 1,
+                "fields": []
+            },
+            {
+                "name": "NAS",
+                "title": "Record NAS - Informazioni sul fornitore (NAD 3035 = SU)",
+                "mandatory": true,
+                "maxOccurs": 1,
+                "fields": [
+                    {
+                        "name": "TIPOREC",
+                        "title": "Tipo record",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": true,
+                        "predefined": "NAS"
+                    },
+                    {
+                        "name": "CODFORN",
+                        "title": "Codice identificativo del fornitore",
+                        "type": "text",
+                        "maxLength": 17,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "QCODFORN",
+                        "title": "Tipo codice fornitore",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": true,
+                        "values": [ "14", "VA", "91", "92", "ZZ"]
+                    },
+                    {
+                        "name": "RAGSOCF",
+                        "title": "Ragione sociale fornitore",
+                        "type": "text",
+                        "maxLength": 70,
+                        "mandatory": false
+                    }
+                ]
+            },
+            {
+                "name": "TOD",
+                "title": "Record TOD – Condizioni di consegna o trasporto",
+                "mandatory": false,
+                "maxOccurs": 5,
+                "fields": []
+            }
+
+        ],
+        "detail": [
+            {
+                "name": "LIN",
+                "title": "Record LIN – Informazioni di riga documento",
+                "mandatory": true,
+                "maxOccurs": 1,
+                "fields": [
+                    {
+                        "name": "TIPOREC",
+                        "title": "Tipo record",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": true,
+                        "predefined": "LIN"
+                    },
+                    {
+                        "name": "NUMRIGA",
+                        "title": "Numero progressivo riga",
+                        "type": "numeric",
+                        "maxLength": 6,
+                        "mandatory": false
+                    },
+                    {
+                        "name": "CODEANCU",
+                        "title": "Codice EAN/UCC o UPC della CU",
+                        "type": "text",
+                        "maxLength": 35,
+                        "mandatory": false
+                    },
+                    {
+                        "name": "TIPCODCU",
+                        "title": "Tipo codice CU (EAN/UCC o UPC)",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": false,
+                        "values": [ "EN", "UP"]
+                    },
+                    {
+                        "name": "DESART",
+                        "title": "Descrizione articolo",
+                        "type": "text",
+                        "maxLength": 35,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "QTAORD",
+                        "title": "Quantità ordinata",
+                        "type": "numeric",
+                        "maxLength": 15,
+                        "decimals": 3,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "UDMQORD",
+                        "title": "Unità di misura della quantità ordinata ",
+                        "type": "text",
+                        "maxLength": 3,
+                        "mandatory": false,
+                        "values": [ "CT", "CU", "KGM", "LTR", "MTK", "MTR", "PCE", "TU"]
+                    },
+                    {
+                        "name": "PRZUNI",
+                        "title": "Prezzo netto unitario atteso in fattura",
+                        "type": "numeric",
+                        "maxLength": 15,
+                        "decimals": 3,
+                        "mandatory": false
+                    }
+                ]
+            },
+            {
+                "name": "PAC",
+                "title": "Record PAC – Informazioni relative all’imballo",
+                "mandatory": false,
+                "maxOccurs": 1,
+                "fields": [
+                    {
+                        "name": "",
+                        "title": "",
+                        "type": "",
+                        "maxLength": 0,
+                        "mandatory": false
+                    }
+                ]
+            }
+        ],
+        "summary": [
+            
+        ]
+    }
+}

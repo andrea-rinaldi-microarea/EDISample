@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<maxs:Items xmlns:maxs="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" tbNamespace="Document.ERP.Items.Documents.Items" xTechProfile="k_art">
+    <maxs:Data>
+        <maxs:Items master="true">
+            <maxs:Item>00002</maxs:Item>
+            <maxs:SaleBarCode>7654321</maxs:SaleBarCode>
+            <maxs:Description>Item 0002</maxs:Description>
+            <maxs:UseSerialNo>false</maxs:UseSerialNo>
+        </maxs:Items>
+        <maxs:GoodsData>
+            <maxs:NetWeight>2.000000000000000</maxs:NetWeight>
+            <maxs:GrossWeight>2.000000000000000</maxs:GrossWeight>
+            <maxs:GrossVolume>2.000000000000000</maxs:GrossVolume>
+        </maxs:GoodsData>
+        <maxs:AlternativeUoM updateType="Replace">
+            <maxs:AlternativeUoMRow>
+                <maxs:ComparableUoM>BOX</maxs:ComparableUoM>
+                <maxs:BaseUoMQty>12.000000000000000</maxs:BaseUoMQty>
+                <maxs:CompUoMQty>1.000000000000000</maxs:CompUoMQty>
+            </maxs:AlternativeUoMRow>
+        </maxs:AlternativeUoM>
+        <maxs:PurchaseBarCode updateType="Replace">
+            <maxs:PurchaseBarCodeRow>
+                <maxs:BarCode>456321</maxs:BarCode>
+            </maxs:PurchaseBarCodeRow>
+        </maxs:PurchaseBarCode>
+        <maxs:LanguageDescription updateType="Replace">
+            <maxs:LanguageDescriptionRow>
+                <maxs:Language>IT</maxs:Language>
+                <maxs:Description>Articolo 2</maxs:Description>
+            </maxs:LanguageDescriptionRow>
+        </maxs:LanguageDescription>
+    </maxs:Data>
+</maxs:Items>

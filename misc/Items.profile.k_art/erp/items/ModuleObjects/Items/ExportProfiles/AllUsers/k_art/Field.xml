@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBTS>
+	<DBT namespace="ERP.Items.Documents.Items.Items">
+		<Fields>
+			<Field name="Item" export="1"></Field>
+			<Field name="SaleBarCode" export="1"></Field>
+			<Field name="Description" export="1"></Field>
+			<Field name="UseSerialNo" export="1"></Field>
+		</Fields>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.GoodsData">
+		<Fields>
+			<Field name="Item" export="1"></Field>
+			<Field name="NetWeight" export="1"></Field>
+			<Field name="GrossWeight" export="1"></Field>
+			<Field name="GrossVolume" export="1"></Field>
+		</Fields>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.AlternativeUoM">
+		<Fields>
+			<Field name="Item" export="1"></Field>
+			<Field name="ComparableUoM" export="1"></Field>
+			<Field name="CompUoMQty" export="1"></Field>
+			<Field name="BaseUoMQty" export="1"></Field>
+		</Fields>
+	</DBT>
+	<DBT namespace="ERP.Items.Documents.Items.PurchaseBarCode">
+		<Fields>
+			<Field name="Item" export="1"></Field>
+			<Field name="BarCode" export="1"></Field>
+		</Fields>
+	</DBT>
+	<DBT namespace="ERP.Languages.AddOnsItems.CDItems.LanguageDescription">
+		<Fields>
+			<Field name="Item" export="1"></Field>
+			<Field name="Language" export="1"></Field>
+			<Field name="Description" export="1"></Field>
+		</Fields>
+	</DBT>
+</DBTS>

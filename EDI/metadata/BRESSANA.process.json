@@ -1,0 +1,152 @@
+{
+    "title": "Import articoli Bressana",
+    "type": "import",
+    "message": "KLI_Articoli",
+    "document": "ERP.Items.Documents.Items",
+    "profile": "k_art",
+    "roots": {
+        "detail": "[%%DOC%%]/Items/Data"
+    },
+    "mappings": [
+        {
+            "target": "Items/Item",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.Articolo"
+            }
+        },
+        {
+            "target": "Items/SaleBarCode",
+            "rule": {
+                "type": "concat",
+                "value": "KLI_Articoli.EAN"
+            }
+        },
+        {
+            "target": "Items/Description",
+            "rule": {
+                "type": "concat",
+                "value": "KLI_Articoli.Descrizione1, ' ', KLI_Articoli.Descrizione2"
+            }
+        },
+        {
+            "target": "Items/UseSerialNo",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.UsaMatricola"
+            }
+        },
+        {
+            "target": "GoodsData/NetWeight",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.PesoNetto"
+            }
+        },
+        {
+            "target": "GoodsData/GrossWeight",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.PesoLordo"
+            }
+        },
+        {
+            "target": "GoodsData/GrossVolume",
+            "rule": {
+                "type": "formula",
+                "value": "KLI_Articoli.Lunghezza * KLI_Articoli.Larghezza * KLI_Articoli.Profondita"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[1]/ComparableUoM",
+            "rule": {
+                "type": "literal",
+                "value": "MASTER"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[1]/BaseUoMQty",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.PezziMasterBox"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[1]/CompUoMQty",
+            "rule": {
+                "type": "literal",
+                "value": "1"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[2]/ComparableUoM",
+            "rule": {
+                "type": "literal",
+                "value": "INNER"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[2]/BaseUoMQty",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.PezziInner"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[2]/CompUoMQty",
+            "rule": {
+                "type": "literal",
+                "value": "1"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[3]/ComparableUoM",
+            "rule": {
+                "type": "literal",
+                "value": "PALLET"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[3]/BaseUoMQty",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.PezziPallet"
+            }
+        },
+        {
+            "target": "AlternativeUoM/AlternativeUoMRow[3]/CompUoMQty",
+            "rule": {
+                "type": "literal",
+                "value": "1"
+            }
+        },
+        {
+            "target": "LanguageDescription/LanguageDescriptionRow[1]/Language",
+            "rule": {
+                "type": "literal",
+                "value": "IT"
+            }
+        },
+        {
+            "target": "LanguageDescription/LanguageDescriptionRow[1]/Description",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.DescrizioneIT"
+            }
+        },
+        {
+            "target": "LanguageDescription/LanguageDescriptionRow[2]/Language",
+            "rule": {
+                "type": "literal",
+                "value": "EN"
+            }
+        },
+        {
+            "target": "LanguageDescription/LanguageDescriptionRow[2]/Description",
+            "rule": {
+                "type": "data",
+                "value": "KLI_Articoli.DescrizioneEN"
+            }
+        }
+    ]
+}

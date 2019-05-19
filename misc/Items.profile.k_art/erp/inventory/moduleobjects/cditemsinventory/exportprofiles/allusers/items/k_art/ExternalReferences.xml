@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MainExternalReferences>
+	<DBT namespace="erp.inventory.addonsitems.CDItemsInventory.FiscalData">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="erp.inventory.addonsitems.CDItemsInventory.ItemsBalances">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="erp.inventory.addonsitems.CDItemsInventory.ItemsLIFO">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="erp.inventory.addonsitems.CDItemsInventory.ItemsFIFO">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="erp.inventory.addonsitems.CDItemsInventory.ItemsWAP">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+	<DBT namespace="erp.inventory.addonsitems.CDItemsInventory.MonthlyQtyBalances">
+		<Export>0</Export>
+		<UpdateType>Replace</UpdateType>
+		<ExternalReferences></ExternalReferences>
+	</DBT>
+</MainExternalReferences>

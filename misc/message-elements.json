@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "title": "",
+    "type": "",  // text, numeric, date, boolean
+    "decimals": 0, // for numeric only
+    "maxLength": 0,
+    "mandatory": true,
+    "predefined": "", 
+    "values": [ "", ""]
+}

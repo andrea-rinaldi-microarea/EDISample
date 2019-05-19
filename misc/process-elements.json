@@ -1,0 +1,7 @@
+{
+    "target": "", //namespace or xpath
+    "rule": {
+        "type": "", //  environment, data, literal, crossCoding
+        "value": "" // xpath or namespace
+    }
+}

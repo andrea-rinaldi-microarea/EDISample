@@ -1,0 +1,148 @@
+{
+    "name": "KLI_Articoli",
+    "layout": {
+        "detail": [
+            {
+                "name": "KLI_Articoli",
+                "title": "Articolo",
+                "fields": [
+                    {
+                        "name": "Articolo",
+                        "title": "Codice articolo",
+                        "type": "text",
+                        "maxLength": 20,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "EAN",
+                        "title": "EAN Articolo",
+                        "type": "text",
+                        "maxLength": 20,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "Descrizione1",
+                        "title": "Descrizione articolo 1",
+                        "type": "text",
+                        "maxLength": 35,
+                        "mandatory": true
+                    },
+                    {
+                        "name": "Descrizione2",
+                        "title": "Descrizione articolo 2",
+                        "type": "text",
+                        "maxLength": 35
+                    },
+                    {
+                        "name": "PesoNetto",
+                        "title": "Peso netto del pezzo (kg)",
+                        "type": "numeric",
+                        "maxLength": 7,
+                        "decimals": 3
+                    },
+                    {
+                        "name": "PesoLordo",
+                        "title": "Peso lordo del pezzo (kg)",
+                        "type": "numeric",
+                        "maxLength": 7,
+                        "decimals": 3
+                    },
+                    {
+                        "name": "Lunghezza",
+                        "title": "Lunghezza pezzo (cm)",
+                        "type": "numeric",
+                        "maxLength": 7
+                    },
+                    {
+                        "name": "Larghezza",
+                        "title": "Larghezza pezzo (cm)",
+                        "type": "numeric",
+                        "maxLength": 7
+                    },
+                    {
+                        "name": "Profondita",
+                        "title": "Profondità pezzo (cm)",
+                        "type": "numeric",
+                        "maxLength": 7
+                    },
+                    {
+                        "name": "Famiglia",
+                        "title": "Famiglia articolo",
+                        "type": "text",
+                        "maxLength": 3
+                    },
+                    {
+                        "name": "PezziMasterBox",
+                        "title": "Pezzi per master box",
+                        "type": "numeric",
+                        "maxLength": 5
+                    },
+                    {
+                        "name": "PezziInner",
+                        "title": "Pezzi per inner",
+                        "type": "numeric",
+                        "maxLength": 5
+                    },
+                    {
+                        "name": "PezziPallet",
+                        "title": "Pezzi per pallet",
+                        "type": "numeric",
+                        "maxLength": 5
+                    },
+                    {
+                        "name": "Scadenza",
+                        "title": "Flag gestione scadenza",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "Colori",
+                        "title": "Flag gestione colori",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "GiorniPreScadenza",
+                        "title": "Nr Giorni per calcolo data fine vendita rispetto data scadenza",
+                        "type": "numeric",
+                        "maxLength": 5
+                    },
+                    {
+                        "name": "UsaMatricola",
+                        "title": "Flag gestione matricola",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "DescrizioneEN",
+                        "title": "Descrizione inglese",
+                        "type": "text",
+                        "maxLength": 128
+                    },
+                    {
+                        "name": "DescrizioneFR",
+                        "title": "Descrizione francese",
+                        "type": "text",
+                        "maxLength": 128
+                    },
+                    {
+                        "name": "DescrizioneDE",
+                        "title": "Descrizione tedesco",
+                        "type": "text",
+                        "maxLength": 128
+                    },
+                    {
+                        "name": "DescrizioneIT",
+                        "title": "Descrizione italiano",
+                        "type": "text",
+                        "maxLength": 128
+                    },
+                    {
+                        "name": "DescrizioneES",
+                        "title": "Descrizione spagnolo",
+                        "type": "text",
+                        "maxLength": 128
+                    }
+                ]
+
+            }
+        ]
+    }
+}

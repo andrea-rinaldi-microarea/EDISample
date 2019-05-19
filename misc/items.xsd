@@ -1,0 +1,85 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Items">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="Item"/>
+                    <xs:element type="xs:int" name="SaleBarCode"/>
+                    <xs:element type="xs:string" name="Description"/>
+                    <xs:element type="xs:string" name="UseSerialNo"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="master"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="GoodsData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="Item"/>
+                    <xs:element type="xs:float" name="NetWeight"/>
+                    <xs:element type="xs:float" name="GrossWeight"/>
+                    <xs:element type="xs:float" name="GrossVolume"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="AlternativeUoM">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="AlternativeUoMRow">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Item"/>
+                          <xs:element type="xs:string" name="ComparableUoM"/>
+                          <xs:element type="xs:float" name="BaseUoMQty"/>
+                          <xs:element type="xs:float" name="CompUoMQty"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="updateType"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="PurchaseBarCode">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="PurchaseBarCodeRow">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Item"/>
+                          <xs:element type="xs:int" name="BarCode"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="updateType"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="LanguageDescription">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LanguageDescriptionRow">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="Item"/>
+                          <xs:element type="xs:string" name="Language"/>
+                          <xs:element type="xs:string" name="Description"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="updateType"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="tbNamespace"/>
+      <xs:attribute type="xs:string" name="xTechProfile"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

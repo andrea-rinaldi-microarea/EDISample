@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<maxs:Company xmlns:maxs="http://www.microarea.it/Schema/2004/Smart/ERP/Company/Company/Standard/Default_CBI.xsd" tbNamespace="Document.ERP.Company.Documents.Company" xTechProfile="Default_CBI">
+    <maxs:Data>
+        <maxs:Company master="true">
+            <maxs:CompanyId>0</maxs:CompanyId>
+            <maxs:CompanyName>Azienda Demo Srl</maxs:CompanyName>
+            <maxs:TaxIdNumber>03472020101</maxs:TaxIdNumber>
+            <maxs:FiscalCode>00018990101</maxs:FiscalCode>
+            <maxs:Address>VIA RASARTELLI 22</maxs:Address>
+            <maxs:ZIPCode>16100</maxs:ZIPCode>
+            <maxs:City>GENOVA</maxs:City>
+            <maxs:County>GE</maxs:County>
+            <maxs:ISOCountryCode>IT</maxs:ISOCountryCode>
+            <maxs:NaturalPerson>false</maxs:NaturalPerson>
+            <maxs:CBICode>0002671X</maxs:CBICode>
+        </maxs:Company>
+    </maxs:Data>
+</maxs:Company>
