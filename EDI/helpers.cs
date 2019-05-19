@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using EDI.models;
+using EDI;
 using Newtonsoft.Json;
 
 namespace EDI

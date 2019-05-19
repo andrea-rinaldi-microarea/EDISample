@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace EDI.models
+namespace EDI
 {
     public class Layout 
     {

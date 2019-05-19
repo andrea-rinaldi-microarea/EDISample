@@ -1,4 +1,4 @@
-namespace EDI.models
+namespace EDI
 {
     public class Process
     {

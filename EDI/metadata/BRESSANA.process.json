@@ -18,7 +18,7 @@
         {
             "target": "Items/SaleBarCode",
             "rule": {
-                "type": "concat",
+                "type": "data",
                 "value": "KLI_Articoli.EAN"
             }
         },

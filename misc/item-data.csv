@@ -1,0 +1,4 @@
+
+Articolo;EAN;Descrizione1;Descrizione2;PesoNetto;PesoLordo;Lunghezza;Larghezza;Profondita;Famiglia;PezziMasterBox;PezziInner;PezziPallet;Scadenza;Colori;GiorniPreScadenza;UsaMatricola;DescrizioneEN;DescrizioneFR;DescrizioneDE;DescrizioneIT;DescrizioneES
+00002;7654321;Item 0002;2.0;2.0;1.0;1.0;2.0;;12.0;6.0;8.0;;false;false;0;false;;;;Articolo 2;
+00003;554553;Item 0003;3.0;3.0;1.0;2.0;3.0;;18.0;9.0;12.0;;false;false;0;false;;;;Articolo 3;
