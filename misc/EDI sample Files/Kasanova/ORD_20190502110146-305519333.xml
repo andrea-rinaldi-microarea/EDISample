@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PurchConfirms>
+  <PurchConfirm>
+    <PurchaseOrderId>19CF056380</PurchaseOrderId>
+    <PurchId>19OF057993</PurchId>
+    <PurchCreateDateTime>2019-05-02T08:36:48</PurchCreateDateTime>
+    <PurchOrderDate>2019-05-02T08:36:53</PurchOrderDate>
+    <DeliveryDate>2019-05-10</DeliveryDate>
+    <OrderAccount>F000120</OrderAccount>
+    <InvoiceAccount>F000120</InvoiceAccount>
+    <TaxRegistrationNumber>01315690998</TaxRegistrationNumber>
+    <DeliveryName>CO.IMPORT</DeliveryName>
+    <DeliveryAddress>C/O Kasanova S.p.A.
+C.C. Il globo,
+Via Italia , 197
+20040 Busnago (MB)
+IT</DeliveryAddress>
+    <DlvMode />
+    <DlvTerm>FRA</DlvTerm>
+    <CountryRegionId>IT</CountryRegionId>
+    <Qty>251.00</Qty>
+    <Weight>0.00000</Weight>
+    <Volume>0.00000</Volume>
+    <SumMarkup>0.0000</SumMarkup>
+    <Amount>536.3700</Amount>
+    <CurrencyCode>EUR</CurrencyCode>
+    <ExchRate>100.0000</ExchRate>
+    <Requisitioner />
+    <DeliveryZipCode>20040</DeliveryZipCode>
+    <DeliveryCountryRegionId>IT</DeliveryCountryRegionId>
+    <DeliveryState>Lombardia</DeliveryState>
+    <DeliveryCounty>MB</DeliveryCounty>
+    <SumTax>96.7200</SumTax>
+    <CashDiscCode />
+    <PayTerm>RBFM12+5</PayTerm>
+    <InclTax>0</InclTax>
+    <FixedDueDate />
+    <DeliveryCity>Busnago</DeliveryCity>
+    <DeliveryStreet>C/O Kasanova S.p.A.
+C.C. Il globo,
+Via Italia , 197</DeliveryStreet>
+    <SalesPointId>M009</SalesPointId>
+    <WeddingListId />
+    <DataAreaId>font</DataAreaId>
+    <SalesPointReference>M009.SEDE.3655157</SalesPointReference>
+    <NADCode>M009</NADCode>
+    <DlvReasonId>04</DlvReasonId>
+    <Phone />
+    <CellularPhone />
+    <MandatoryDeliveryDate />
+    <MandatoryDeliveryDateTypeId />
+    <DeliveryAddress>C/O Kasanova S.p.A.
+C.C. Il globo,
+Via Italia , 197
+20040 Busnago (MB)
+IT</DeliveryAddress>
+    <VendGroup>NAZ</VendGroup>
+    <PurchOrderDocNum>19OF057993-1</PurchOrderDocNum>
+    <LanguageId>IT</LanguageId>
+    <RecId>5638319107</RecId>
+    <UNBAddress />
+    <Period>2019</Period>
+    <Sale1 />
+    <Sale2 />
+    <Sale3 />
+    <PurchConfirmNote>
+      <NoteTypeId>Nota</NoteTypeId>
+      <Notes>I TERMINI DI PAGAMENTO DI CUI AL PRESENTE ORDINE  DEVONO CONSIDERARSI IN DEROGA AL TERMINE DI PAGAMENTO DI  GIORNI 30  CUI AL D.LGS. 192/2012  senza che questo comporti applicazione degli interessi di mora o di penali , quote forfettarie di risarcimento danni  o addebiti di costi  per il recupero.</Notes>
+    </PurchConfirmNote>
+    <PurchConfirmLine>
+      <LineNum>1.00</LineNum>
+      <ItemId>MRE012108NOC</ItemId>
+      <ExternalItemId>8034052131100</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 250 LAVANDA DI CAMPO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.8500</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>68.4000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345814</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>2.00</LineNum>
+      <ItemId>MRE012119NOC</ItemId>
+      <ExternalItemId>8034052131216</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 AGRUMI DEL MEDITERRANEO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345815</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>3.00</LineNum>
+      <ItemId>MRE012123NOC</ItemId>
+      <ExternalItemId>8034052131254</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125  LEGNI DI SANDALO E BERGA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345816</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>4.00</LineNum>
+      <ItemId>MRE012125NOC</ItemId>
+      <ExternalItemId>8034052131278</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 MELOGRANO NERO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345817</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>5.00</LineNum>
+      <ItemId>MRE013410NOC</ItemId>
+      <ExternalItemId>8034052200882</ExternalItemId>
+      <Name>SET 2 PROFUMATORI PER ARMADI FRAGRANZE ASSORTITE</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>36.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>0.7300</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>17.9300</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345818</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>6.00</LineNum>
+      <ItemId>MRE016895NOC</ItemId>
+      <ExternalItemId>8034052232036</ExternalItemId>
+      <Name>CANDELA PURA GR 130 FRUTTI ROSSI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.0000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>11.7600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345819</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>7.00</LineNum>
+      <ItemId>MRE016901NOC</ItemId>
+      <ExternalItemId>8034052232098</ExternalItemId>
+      <Name>CANDELA PURA GR 130 ARANCIA SPEZIE</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.0000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>11.7600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345820</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>8.00</LineNum>
+      <ItemId>MRE016902NOC</ItemId>
+      <ExternalItemId>8034052232104</ExternalItemId>
+      <Name>CANDELA PURA GR 130 ORIENTAL SPA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.0000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>11.7600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345821</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>9.00</LineNum>
+      <ItemId>MRE016943NOC</ItemId>
+      <ExternalItemId>8034052301770</ExternalItemId>
+      <Name>CIALDE PROFUMATE PURA INTENSE VANIGLIA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>0.4200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>4.9400</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345822</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>10.00</LineNum>
+      <ItemId>MRE018353COL</ItemId>
+      <ExternalItemId>8034052236065</ExternalItemId>
+      <Name>TAPPETO ROSE IN FLANELLA CM 75X45X1,2 ASSORTITO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.3000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>54.1000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307345823</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>11.00</LineNum>
+      <ItemId>MRE019849COL</ItemId>
+      <ExternalItemId>8034052236058</ExternalItemId>
+      <Name>TAPPETO CUORI FLANELLA CM 75X45X1,2 ASSORTITO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.3000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>54.1000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307345824</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>12.00</LineNum>
+      <ItemId>MRE019851COL</ItemId>
+      <ExternalItemId>8034052307079</ExternalItemId>
+      <Name>SACCA PORTABIANCHERIA CM 65X40 ASSORTITA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>15.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>5.8000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>59.3400</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307345825</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>13.00</LineNum>
+      <ItemId>MRE020338NOC</ItemId>
+      <ExternalItemId>8034052231039</ExternalItemId>
+      <Name>VASO VETRO CM 17X50 CONICO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>5.8000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>15.8200</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345826</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>14.00</LineNum>
+      <ItemId>MRE020341NOC</ItemId>
+      <ExternalItemId>8034052345712</ExternalItemId>
+      <Name>VASO VETRO CM 30X15 TRUMPET</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>4.8000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>13.1000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-10</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307345827</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+  </PurchConfirm>
+</PurchConfirms>

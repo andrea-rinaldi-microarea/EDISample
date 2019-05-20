@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PurchConfirms>
+  <PurchConfirm>
+    <PurchaseOrderId>19CF056045</PurchaseOrderId>
+    <PurchId>19OF057651</PurchId>
+    <PurchCreateDateTime>2019-04-30T15:39:33</PurchCreateDateTime>
+    <PurchOrderDate>2019-04-30T15:39:38</PurchOrderDate>
+    <DeliveryDate>2019-05-13</DeliveryDate>
+    <OrderAccount>F000120</OrderAccount>
+    <InvoiceAccount>F000120</InvoiceAccount>
+    <TaxRegistrationNumber>01315690998</TaxRegistrationNumber>
+    <DeliveryName>KASANOVA S.P.A. - KASANOVA+ FIUMICINO</DeliveryName>
+    <DeliveryAddress>C/o C.c. Da Vinci
+Via Geminiano Montanari
+Ingresso unita' via Antonio Pacinotti 4
+00054 Fiumicino (RM)
+IT</DeliveryAddress>
+    <DlvMode />
+    <DlvTerm>FRA</DlvTerm>
+    <CountryRegionId>IT</CountryRegionId>
+    <Qty>260.00</Qty>
+    <Weight>3408.00000</Weight>
+    <Volume>0.00000</Volume>
+    <SumMarkup>0.0000</SumMarkup>
+    <Amount>505.5900</Amount>
+    <CurrencyCode>EUR</CurrencyCode>
+    <ExchRate>100.0000</ExchRate>
+    <Requisitioner />
+    <DeliveryZipCode>00054</DeliveryZipCode>
+    <DeliveryCountryRegionId>IT</DeliveryCountryRegionId>
+    <DeliveryState>Lazio</DeliveryState>
+    <DeliveryCounty>RM</DeliveryCounty>
+    <SumTax>91.1700</SumTax>
+    <CashDiscCode />
+    <PayTerm>RBFM12+5</PayTerm>
+    <InclTax>0</InclTax>
+    <FixedDueDate />
+    <DeliveryCity>Fiumicino</DeliveryCity>
+    <DeliveryStreet>C/o C.c. Da Vinci
+Via Geminiano Montanari
+Ingresso unita' via Antonio Pacinotti 4</DeliveryStreet>
+    <SalesPointId>F011</SalesPointId>
+    <WeddingListId />
+    <DataAreaId>font</DataAreaId>
+    <SalesPointReference>F011.SEDE.3654569</SalesPointReference>
+    <NADCode>F011</NADCode>
+    <DlvReasonId>04</DlvReasonId>
+    <Phone />
+    <CellularPhone />
+    <MandatoryDeliveryDate />
+    <MandatoryDeliveryDateTypeId />
+    <DeliveryAddress>C/o C.c. Da Vinci
+Via Geminiano Montanari
+Ingresso unita' via Antonio Pacinotti 4
+00054 Fiumicino (RM)
+IT</DeliveryAddress>
+    <VendGroup>NAZ</VendGroup>
+    <PurchOrderDocNum>19OF057651-1</PurchOrderDocNum>
+    <LanguageId>IT</LanguageId>
+    <RecId>5638318754</RecId>
+    <UNBAddress />
+    <Period>2019</Period>
+    <Sale1 />
+    <Sale2 />
+    <Sale3 />
+    <PurchConfirmNote>
+      <NoteTypeId>Nota</NoteTypeId>
+      <Notes>I TERMINI DI PAGAMENTO DI CUI AL PRESENTE ORDINE  DEVONO CONSIDERARSI IN DEROGA AL TERMINE DI PAGAMENTO DI  GIORNI 30  CUI AL D.LGS. 192/2012  senza che questo comporti applicazione degli interessi di mora o di penali , quote forfettarie di risarcimento danni  o addebiti di costi  per il recupero.</Notes>
+    </PurchConfirmNote>
+    <PurchConfirmLine>
+      <LineNum>1.00</LineNum>
+      <ItemId>MRE012101NOC</ItemId>
+      <ExternalItemId>8034052131032</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 250 MUSCHIO FRESCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.8500</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>68.4000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269239</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>2.00</LineNum>
+      <ItemId>MRE012114NOC</ItemId>
+      <ExternalItemId>8034052131162</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 250 FIORI D'ARGAN</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.8500</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>68.4000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269240</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>3.00</LineNum>
+      <ItemId>MRE012117NOC</ItemId>
+      <ExternalItemId>8034052131193</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 MUSCHIO FRESCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269241</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>4.00</LineNum>
+      <ItemId>MRE012120NOC</ItemId>
+      <ExternalItemId>8034052131223</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 NUVOLA DI TALCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269242</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>5.00</LineNum>
+      <ItemId>MRE012123NOC</ItemId>
+      <ExternalItemId>8034052131254</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125  LEGNI DI SANDALO E BERGA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269243</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>6.00</LineNum>
+      <ItemId>MRE012124NOC</ItemId>
+      <ExternalItemId>8034052131261</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 LAVANDA DI CAMPO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269244</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>7.00</LineNum>
+      <ItemId>MRE012127NOC</ItemId>
+      <ExternalItemId>8034052131292</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 ARANCIA E CANNELLA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269245</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>8.00</LineNum>
+      <ItemId>MRE012130NOC</ItemId>
+      <ExternalItemId>8034052131322</ExternalItemId>
+      <Name>BOTTIGLIA ESSENZA ML 125 FIORI D'ARGAN</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>38.8800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>0.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269246</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>9.00</LineNum>
+      <ItemId>MRE013388NOC</ItemId>
+      <ExternalItemId>8034052133968</ExternalItemId>
+      <Name>FRAGRANZATALCO PER DIFFUSORE CATALITICO ML 500</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>8.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.4000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>18.8200</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307269247</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>10.00</LineNum>
+      <ItemId>MRE015001COL</ItemId>
+      <ExternalItemId>8034052213769</ExternalItemId>
+      <Name>SACCHETTO PROFUMATO ASSORTITO CUORI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>48.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>0.4000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>18.8200</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307269248</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>11.00</LineNum>
+      <ItemId>MRE015002COL</ItemId>
+      <ExternalItemId>8034052213776</ExternalItemId>
+      <Name>GESSO PROFUMATORE PER CASSETTI ASSORTITO CUORI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>0.5700</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>6.7000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>2.0000</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-13</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307269249</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+  </PurchConfirm>
+</PurchConfirms>

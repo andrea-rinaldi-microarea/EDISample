@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PurchConfirms>
+  <PurchConfirm>
+    <PurchaseOrderId>19CF056446</PurchaseOrderId>
+    <PurchId>19OF058059</PurchId>
+    <PurchCreateDateTime>2019-05-02T10:43:08</PurchCreateDateTime>
+    <PurchOrderDate>2019-05-02T10:43:22</PurchOrderDate>
+    <DeliveryDate>2019-05-08</DeliveryDate>
+    <OrderAccount>F000120</OrderAccount>
+    <InvoiceAccount>F000120</InvoiceAccount>
+    <TaxRegistrationNumber>01315690998</TaxRegistrationNumber>
+    <DeliveryName>KASANOVA S.P.A. - LA CASA SULL'ALBERO</DeliveryName>
+    <DeliveryAddress>Valdichiana Outlet Village
+Via Enzo Ferrari, 5
+52045 Foiano Della Chiana (AR)
+IT</DeliveryAddress>
+    <DlvMode />
+    <DlvTerm>FRA</DlvTerm>
+    <CountryRegionId>IT</CountryRegionId>
+    <Qty>312.00</Qty>
+    <Weight>0.00000</Weight>
+    <Volume>0.00000</Volume>
+    <SumMarkup>0.0000</SumMarkup>
+    <Amount>853.8500</Amount>
+    <CurrencyCode>EUR</CurrencyCode>
+    <ExchRate>100.0000</ExchRate>
+    <Requisitioner />
+    <DeliveryZipCode>52045</DeliveryZipCode>
+    <DeliveryCountryRegionId>IT</DeliveryCountryRegionId>
+    <DeliveryState>Toscana</DeliveryState>
+    <DeliveryCounty>AR</DeliveryCounty>
+    <SumTax>153.9700</SumTax>
+    <CashDiscCode />
+    <PayTerm>RBFM12+5</PayTerm>
+    <InclTax>0</InclTax>
+    <FixedDueDate />
+    <DeliveryCity>Foiano Della Chiana</DeliveryCity>
+    <DeliveryStreet>Valdichiana Outlet Village
+Via Enzo Ferrari, 5</DeliveryStreet>
+    <SalesPointId>F040</SalesPointId>
+    <WeddingListId />
+    <DataAreaId>font</DataAreaId>
+    <SalesPointReference />
+    <NADCode>F040</NADCode>
+    <DlvReasonId />
+    <Phone />
+    <CellularPhone />
+    <MandatoryDeliveryDate />
+    <MandatoryDeliveryDateTypeId />
+    <DeliveryAddress>Valdichiana Outlet Village
+Via Enzo Ferrari, 5
+52045 Foiano Della Chiana (AR)
+IT</DeliveryAddress>
+    <VendGroup>NAZ</VendGroup>
+    <PurchOrderDocNum>19OF058059-1</PurchOrderDocNum>
+    <LanguageId>IT</LanguageId>
+    <RecId>5638319175</RecId>
+    <UNBAddress />
+    <Period>2019</Period>
+    <Sale1 />
+    <Sale2 />
+    <Sale3 />
+    <PurchConfirmNote>
+      <NoteTypeId>Nota</NoteTypeId>
+      <Notes>I TERMINI DI PAGAMENTO DI CUI AL PRESENTE ORDINE  DEVONO CONSIDERARSI IN DEROGA AL TERMINE DI PAGAMENTO DI  GIORNI 30  CUI AL D.LGS. 192/2012  senza che questo comporti applicazione degli interessi di mora o di penali , quote forfettarie di risarcimento danni  o addebiti di costi  per il recupero.</Notes>
+    </PurchConfirmNote>
+    <PurchConfirmLine>
+      <LineNum>1.00</LineNum>
+      <ItemId>MRE016379NOC</ItemId>
+      <ExternalItemId>8034052258890</ExternalItemId>
+      <Name>LANTERNA LIGHTHOUSE IN METALLO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>2.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>9.0000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>12.2800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376081</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>2.00</LineNum>
+      <ItemId>MRE018112COL</ItemId>
+      <ExternalItemId>8034052441452</ExternalItemId>
+      <Name>FERMACARTE MEDUSA IN VETRO CM 8.5X9 ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>6.8000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>55.6600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376083</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>3.00</LineNum>
+      <ItemId>MRE018169COL</ItemId>
+      <ExternalItemId>8034052449717</ExternalItemId>
+      <Name>PORTACANDELA IN LEGNO VETRO CM 13X9,5X6 ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>24.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.6900</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>27.6700</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376085</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>4.00</LineNum>
+      <ItemId>MRE020387NOC</ItemId>
+      <ExternalItemId>8034052463867</ExternalItemId>
+      <Name>SET 2 CESTE RETTANGOLARI IN BAMBOO AZZURRE</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>2.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>26.0000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>35.4700</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376089</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>5.00</LineNum>
+      <ItemId>MRE020390NOC</ItemId>
+      <ExternalItemId>8034052239615</ExternalItemId>
+      <Name>LANTERNA IN METALLO CM 16,5X16,5X37 BIANCA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>7.7000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>31.5100</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376092</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>6.00</LineNum>
+      <ItemId>MRE020391COL</ItemId>
+      <ExternalItemId>8034052259255</ExternalItemId>
+      <Name>LANTERNA MARINARA IN METALLO CM 4X6X4 ASSORTITA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.0000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>4.0900</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376095</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>7.00</LineNum>
+      <ItemId>MRE020393COL</ItemId>
+      <ExternalItemId>8034052325905</ExternalItemId>
+      <Name>CONFEZIONE POTPOURRI CM 14X8,5X25 ASSORTITA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>48.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.8200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>92.3300</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376097</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>8.00</LineNum>
+      <ItemId>MRE020394COL</ItemId>
+      <ExternalItemId>8034052357203</ExternalItemId>
+      <Name>TOVAGLIETTA IN CARTA CM 45X30 COLORI ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>16.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>0.7300</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>7.9700</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376098</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>9.00</LineNum>
+      <ItemId>MRE020395NOC</ItemId>
+      <ExternalItemId>8034052460071</ExternalItemId>
+      <Name>LANTERNA IN LEGNO CM 21X40X21 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>11.6000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>47.4700</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376100</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>10.00</LineNum>
+      <ItemId>MRE020396COL</ItemId>
+      <ExternalItemId>8034052466110</ExternalItemId>
+      <Name>PORTACANDELA SALVAGENTE CM 9X6,5 COLORI ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>16.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.5000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>16.3700</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376102</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>11.00</LineNum>
+      <ItemId>MRE020397NOC</ItemId>
+      <ExternalItemId>8034052466349</ExternalItemId>
+      <Name>PORTATOVAGLIOLI MARINARO LEGNO CM 20X10X20 BIANCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.7500</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>15.3500</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376104</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>12.00</LineNum>
+      <ItemId>MRE020398COL</ItemId>
+      <ExternalItemId>8034052468855</ExternalItemId>
+      <Name>CANDELA CITRONELLA VASO CEMENTO CM13X12X13 ASS</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.7000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>15.1400</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376105</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>13.00</LineNum>
+      <ItemId>MRE020399COL</ItemId>
+      <ExternalItemId>8034052542531</ExternalItemId>
+      <Name>SOTTOPIATTO CM 38 COLORI ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>1.1600</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>9.4900</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376107</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>14.00</LineNum>
+      <ItemId>MRE020400COL</ItemId>
+      <ExternalItemId>8034052542562</ExternalItemId>
+      <Name>CESTINO IN CORDA CM 22X8 COLORI ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>18.0100</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376108</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>15.00</LineNum>
+      <ItemId>MRE020401COL</ItemId>
+      <ExternalItemId>8034052542586</ExternalItemId>
+      <Name>SOTTOPIATTO CORDA DECORAZIONE MARE CM 33 ASSORTITO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>18.0100</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376111</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>16.00</LineNum>
+      <ItemId>MRE020402COL</ItemId>
+      <ExternalItemId>8034052542609</ExternalItemId>
+      <Name>CESTINO CORDA DECORAZIONE MARE CM 34X5 ASSORTITO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.8000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>31.1000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376113</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>17.00</LineNum>
+      <ItemId>MRE020404NOC</ItemId>
+      <ExternalItemId>8034052543262</ExternalItemId>
+      <Name>CANDELA CITRONELLA VASO CEMENTO CM10X9,5X10 BIANCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>9.0000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376115</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>18.00</LineNum>
+      <ItemId>MRE020405NOC</ItemId>
+      <ExternalItemId>8034052543279</ExternalItemId>
+      <Name>CANDELA CITRONELLA VASO CEMENTO CM16X7,5X16 BIANCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.7000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>15.1400</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376116</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>19.00</LineNum>
+      <ItemId>MRE020406NOC</ItemId>
+      <ExternalItemId>8034052543293</ExternalItemId>
+      <Name>CANDELA CITRONELLA VASO CEMENTO CM 18X6X18 BIANCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.7500</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>15.3500</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376118</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>20.00</LineNum>
+      <ItemId>MRE020407NOC</ItemId>
+      <ExternalItemId>8034052546010</ExternalItemId>
+      <Name>BARATTOLO CAVALLUCCIO CM 13X17 BIANCO E AZZURRO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>2.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>5.6000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>7.6400</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376120</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>21.00</LineNum>
+      <ItemId>MRE020408NOC</ItemId>
+      <ExternalItemId>8034052546027</ExternalItemId>
+      <Name>BARATTOLO CAVALLUCCIO CM 14X14 BIANCO E AZZURRO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>4.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>11.4600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376122</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>22.00</LineNum>
+      <ItemId>MRE020409NOC</ItemId>
+      <ExternalItemId>8034052546058</ExternalItemId>
+      <Name>BARATTOLO CAVALLUCCIO CM 14X14 BIANCO E AZZURRO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>4.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>11.4600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376123</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>23.00</LineNum>
+      <ItemId>MRE020411NOC</ItemId>
+      <ExternalItemId>8034052546089</ExternalItemId>
+      <Name>BARATTOLO ERMETICO CM 12,5X13 AZZURRO E BIANCO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>4.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>34.3800</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376125</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>24.00</LineNum>
+      <ItemId>MRE020412NOC</ItemId>
+      <ExternalItemId>8034052546096</ExternalItemId>
+      <Name>BARATTOLO CAVALLUCCIO CM 10X9 BIANCO E AZZURRO</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.6000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>7.0900</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376127</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>25.00</LineNum>
+      <ItemId>MRE020413NOC</ItemId>
+      <ExternalItemId>8034052546102</ExternalItemId>
+      <Name>SET SALE E PEPE CM 11,5X13X7 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.8200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>11.5400</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376128</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>26.00</LineNum>
+      <ItemId>MRE020414NOC</ItemId>
+      <ExternalItemId>8034052546119</ExternalItemId>
+      <Name>BROCCHETTA IN CERAMICA CM15X10,5X11 BIANCA AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.4000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>6.5500</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376130</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>27.00</LineNum>
+      <ItemId>MRE020415NOC</ItemId>
+      <ExternalItemId>8034052546126</ExternalItemId>
+      <Name>BROCCA ANCORA CM 22,5X21X12 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>2.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>7.3000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>9.9600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376132</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>28.00</LineNum>
+      <ItemId>MRE020416NOC</ItemId>
+      <ExternalItemId>8034052546188</ExternalItemId>
+      <Name>ANTIPASTIERA BARCA CM 32X6X14 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>6.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.8000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>15.5500</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376133</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>29.00</LineNum>
+      <ItemId>MRE020417NOC</ItemId>
+      <ExternalItemId>8034052546195</ExternalItemId>
+      <Name>MUG ONDE IN CERAMICA CM 13X10X9 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>6.0000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376135</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>30.00</LineNum>
+      <ItemId>MRE020418NOC</ItemId>
+      <ExternalItemId>8034052546201</ExternalItemId>
+      <Name>MUG CAVALLUCCIO CM 13X10X9 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>6.0000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376137</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>31.00</LineNum>
+      <ItemId>MRE020419NOC</ItemId>
+      <ExternalItemId>8034052546218</ExternalItemId>
+      <Name>MUG PESCI CERAMICA CM 15X10,5X11 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.2000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>6.0000</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376138</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>32.00</LineNum>
+      <ItemId>MRE020420NOC</ItemId>
+      <ExternalItemId>8034052546256</ExternalItemId>
+      <Name>CIOTOLA PESCI CM 16,5XH,7,5 BIANCA E AZZURRA</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>4.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.5000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>6.8200</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376140</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>33.00</LineNum>
+      <ItemId>MRE020421NOC</ItemId>
+      <ExternalItemId>8034052546874</ExternalItemId>
+      <Name>CANDELA PROFUMATA IN VETRO CM 9X10 MULTICOLORE</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>2.5000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>20.4600</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>NOC</ColorId>
+      <InventTransId>GT307376144</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>34.00</LineNum>
+      <ItemId>MRE020423COL</ItemId>
+      <ExternalItemId>8034052547802</ExternalItemId>
+      <Name>BARATTOLO POTPOURRI MARINARO CM10X10X17,5 ASSORT</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.7000</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>30.2900</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376147</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+    <PurchConfirmLine>
+      <LineNum>35.00</LineNum>
+      <ItemId>MRE020424COL</ItemId>
+      <ExternalItemId>8034052689229</ExternalItemId>
+      <Name>ZERBINO COCCO SEE CM 40X60 DECORI ASSORTITI</Name>
+      <CurrencyCode>EUR</CurrencyCode>
+      <Qty>12.00</Qty>
+      <PurchUnit>NR</PurchUnit>
+      <PriceUnit>1.0000</PriceUnit>
+      <PurchPrice>3.8200</PurchPrice>
+      <PurchMarkup>0.0000</PurchMarkup>
+      <LineAmount>31.2700</LineAmount>
+      <MultiLnDisc>0.0000</MultiLnDisc>
+      <MultiLnPercent>0.0000</MultiLnPercent>
+      <LineDisc>0.0000</LineDisc>
+      <LinePercent>31.7900</LinePercent>
+      <LineAmountTax>0.0000</LineAmountTax>
+      <isNetPricePurch>0</isNetPricePurch>
+      <DeliveryDate>2019-05-08</DeliveryDate>
+      <ConfirmedDeliveryDate />
+      <MandatoryDeliveryDate />
+      <MandatoryDeliveryDateTypeId />
+      <PromotionId />
+      <LineLinkId />
+      <ExternalPromotionId />
+      <ColorId>COL</ColorId>
+      <InventTransId>GT307376150</InventTransId>
+      <ClosedRequest>0</ClosedRequest>
+      <OrderType>CF</OrderType>
+      <Period>2019</Period>
+      <Sale3 />
+      <HeaderSales />
+      <PurchConfirmLineDetail>
+        <DiscountPercent>20.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>13.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+      <PurchConfirmLineDetail>
+        <DiscountPercent>2.0000</DiscountPercent>
+      </PurchConfirmLineDetail>
+    </PurchConfirmLine>
+  </PurchConfirm>
+</PurchConfirms>
