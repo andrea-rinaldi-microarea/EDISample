@@ -32,19 +32,28 @@ namespace EDI
             return process.mappings.Find(m => m.target == path);
         }
 
-        public void AddField(XElement node, string tag, string parent = "", int? child = null)
+        private void AddField(XElement node, string tag, string path)
         {
-            var map = child == null ? 
-                        GetMapping($"{node.Name.LocalName}/{tag}") :
-                        GetMapping($"{parent}/{node.Name.LocalName}[{child}]/{tag}");
-            if (map != null)
+            var map = GetMapping(path);
+
+            if (map == null)
+                return;
+
+            var value = interpreter.GetValue(map.rule);
+            if (value != null)
             {
-                var value = interpreter.GetValue(map.rule);
-                if (value != null)
-                {
-                    node.Add(new XElement(maxs + tag, value));
-                }
+                node.Add(new XElement(maxs + tag, value));
             }
+        }
+
+        public void AddField(XElement node, string tag)
+        {
+            AddField(node, tag, $"{node.Name.LocalName}/{tag}");
+        }
+
+        public void AddField(XElement parent, XElement node, int child, string tag)
+        {
+            AddField(node, tag, $"{parent.Name.LocalName}/{node.Name.LocalName}[{child}]/{tag}");
         }
 
         public void AddNode(XElement node)

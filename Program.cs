@@ -39,9 +39,9 @@ namespace EDISample
                     while (composer.HasMappings(uom,"AlternativeUoMRow", child))
                     {
                         var row = composer.CreateNode("AlternativeUoMRow");
-                        composer.AddField(row,"ComparableUoM", "AlternativeUoM", child);
-                        composer.AddField(row,"BaseUoMQty", "AlternativeUoM", child);
-                        composer.AddField(row,"CompUoMQty", "AlternativeUoM", child);
+                        composer.AddField(uom, row, child, "ComparableUoM");
+                        composer.AddField(uom, row, child, "BaseUoMQty");
+                        composer.AddField(uom, row, child, "CompUoMQty");
                         uom.Add(row);
                         child++;
                     }
