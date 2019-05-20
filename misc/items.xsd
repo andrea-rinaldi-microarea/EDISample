@@ -1,85 +1,190 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="Items">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="Data">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Items">
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" 
+    xmlns="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" targetNamespace="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" id="Itemsk_art">
+    <xs:complexType name="Items">
+        <xs:sequence>
+            <xs:element name="Item" maxOccurs="1">
                 <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:byte" name="Item"/>
-                    <xs:element type="xs:int" name="SaleBarCode"/>
-                    <xs:element type="xs:string" name="Description"/>
-                    <xs:element type="xs:string" name="UseSerialNo"/>
-                  </xs:sequence>
-                  <xs:attribute type="xs:string" name="master"/>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
                 </xs:complexType>
-              </xs:element>
-              <xs:element name="GoodsData">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element type="xs:byte" name="Item"/>
-                    <xs:element type="xs:float" name="NetWeight"/>
-                    <xs:element type="xs:float" name="GrossWeight"/>
-                    <xs:element type="xs:float" name="GrossVolume"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="AlternativeUoM">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="AlternativeUoMRow">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:byte" name="Item"/>
-                          <xs:element type="xs:string" name="ComparableUoM"/>
-                          <xs:element type="xs:float" name="BaseUoMQty"/>
-                          <xs:element type="xs:float" name="CompUoMQty"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                  <xs:attribute type="xs:string" name="updateType"/>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="PurchaseBarCode">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="PurchaseBarCodeRow">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:byte" name="Item"/>
-                          <xs:element type="xs:int" name="BarCode"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                  <xs:attribute type="xs:string" name="updateType"/>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="LanguageDescription">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="LanguageDescriptionRow">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element type="xs:byte" name="Item"/>
-                          <xs:element type="xs:string" name="Language"/>
-                          <xs:element type="xs:string" name="Description"/>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                  <xs:attribute type="xs:string" name="updateType"/>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-      <xs:attribute type="xs:string" name="tbNamespace"/>
-      <xs:attribute type="xs:string" name="xTechProfile"/>
+            </xs:element>
+            <xs:element name="SaleBarCode" type="string21" minOccurs="0"/>
+            <xs:element name="Description" type="string128" minOccurs="0"/>
+            <xs:element name="UseSerialNo" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="master" type="xs:boolean" fixed="true"/>
     </xs:complexType>
-  </xs:element>
+    <xs:complexType name="GoodsData">
+        <xs:sequence>
+            <xs:element name="Item" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="NetWeight" type="xs:double" minOccurs="0"/>
+            <xs:element name="GrossWeight" type="xs:double" minOccurs="0"/>
+            <xs:element name="GrossVolume" type="xs:double" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="updateType" type="xs:integer" fixed="0"/>
+    </xs:complexType>
+    <xs:complexType name="AlternativeUoMRow">
+        <xs:sequence>
+            <xs:element name="Item" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="ComparableUoM" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BaseUoMQty" type="xs:double" minOccurs="0"/>
+            <xs:element name="CompUoMQty" type="xs:double" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="AlternativeUoM">
+        <xs:sequence>
+            <xs:element name="AlternativeUoMRow" type="AlternativeUoMRow" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="updateType" type="xs:integer" fixed="0"/>
+    </xs:complexType>
+    <xs:complexType name="PurchaseBarCodeRow">
+        <xs:sequence>
+            <xs:element name="Item" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BarCode" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="PurchaseBarCode">
+        <xs:sequence>
+            <xs:element name="PurchaseBarCodeRow" type="PurchaseBarCodeRow" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="updateType" type="xs:integer" fixed="0"/>
+    </xs:complexType>
+    <xs:complexType name="LanguageDescriptionRow">
+        <xs:sequence>
+            <xs:element name="Item" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Language" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="primaryKey" type="xs:boolean" fixed="true"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Description" type="string128" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LanguageDescription">
+        <xs:sequence>
+            <xs:element name="LanguageDescriptionRow" type="LanguageDescriptionRow" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="updateType" type="xs:integer" fixed="0"/>
+    </xs:complexType>
+    <xs:complexType name="Data">
+        <xs:sequence>
+            <xs:element name="Items" type="Items" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="GoodsData" type="GoodsData" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="AlternativeUoM" type="AlternativeUoM" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="PurchaseBarCode" type="PurchaseBarCode" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="LanguageDescription" type="LanguageDescription" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Diagnostic">
+        <xs:sequence>
+            <xs:element name="Errors" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Error" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Code" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                                    <xs:element name="Source" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                    <xs:element name="Message" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Warnings" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Warning" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Code" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                                    <xs:element name="Source" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                    <xs:element name="Message" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="string128">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="128"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="string21">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="21"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="Items">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Data" type="Data" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Diagnostic" type="Diagnostic" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="tbNamespace" type="xs:string" fixed="Document.ERP.Items.Documents.Items"/>
+            <xs:attribute name="xTechProfile" type="xs:string" fixed="k_art"/>
+            <xs:attribute name="postable" type="xs:boolean" fixed="true"/>
+            <xs:attribute name="postBack" type="xs:boolean" fixed="true"/>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
