@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="csvhelper" Version="12.1.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="NLight" Version="2.1.1" />
   </ItemGroup>
 
 </Project>

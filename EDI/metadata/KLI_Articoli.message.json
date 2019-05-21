@@ -92,12 +92,14 @@
                     {
                         "name": "Scadenza",
                         "title": "Flag gestione scadenza",
-                        "type": "boolean"
+                        "type": "boolean",
+                        "maxLength": 1
                     },
                     {
                         "name": "Colori",
                         "title": "Flag gestione colori",
-                        "type": "boolean"
+                        "type": "boolean",
+                        "maxLength": 1
                     },
                     {
                         "name": "GiorniPreScadenza",
@@ -108,7 +110,8 @@
                     {
                         "name": "UsaMatricola",
                         "title": "Flag gestione matricola",
-                        "type": "boolean"
+                        "type": "boolean",
+                        "maxLength": 1
                     },
                     {
                         "name": "DescrizioneEN",

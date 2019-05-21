@@ -29,7 +29,7 @@ namespace EDI
             if (rule.type == "data")
             {
                 //@@ todo xpath
-                return "a";
+                return "value of " + rule.value;
             }
             else if (rule.type == "literal")
             {
