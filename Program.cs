@@ -11,7 +11,7 @@ namespace EDISample
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Import()
         {
             var message = Helpers.LoadMessage("KLI_Articoli");
             var process = Helpers.LoadProcess("BRESSANA");
@@ -54,6 +54,26 @@ namespace EDISample
                     Console.WriteLine(File.ReadAllText(fname)); 
                 }
             }
+        }
+
+        static void Export()
+        {
+            var process = Helpers.LoadProcess("BRESSANA-ARTICOLI");
+            var message = Helpers.LoadMessage(process.message);
+
+            XMLExtractor extractor = new XMLExtractor("items-*");
+            Composer composer = new Composer(message, process);
+            while (extractor.MoreMessages())
+            {
+                Console.WriteLine(extractor.doc);
+            }
+
+        }
+
+        static void Main(string[] args)
+        {
+            // Import();
+            Export();
         }
     }
 }

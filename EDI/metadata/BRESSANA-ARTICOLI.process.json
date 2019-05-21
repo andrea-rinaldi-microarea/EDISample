@@ -1,0 +1,139 @@
+{
+    "title": "Export articoli Bressana",
+    "type": "export",
+    "message": "KLI_Articoli",
+    "document": "ERP.Items.Documents.Items",
+    "profile": "k_art",
+    "roots": {
+        "detail": "[%%DOC%%]/Items/Data"
+    },
+    "mappings": [
+        {
+            "target": "KLI_Articoli.Articolo",
+            "rule": {
+                "type": "data",
+                "value": "Items/Item"
+            }
+        },
+        {
+            "target": "KLI_Articoli.EAN",
+            "rule": {
+                "type": "data",
+                "value": "Items/SaleBarCode"
+            }
+        },
+        {
+            "target": "KLI_Articoli.Descrizione1",
+            "rule": {
+                "type": "extract",
+                "value": "Items/Description"
+            }
+        },
+        {
+            "target": "KLI_Articoli.Descrizione2",
+            "rule": {
+                "type": "extract",
+                "value": "Items/Description"
+            }
+        },
+        {
+            "target": "KLI_Articoli.UsaMatricola",
+            "rule": {
+                "type": "data",
+                "value": "Items/UseSerialNo"
+            }
+        },
+        {
+            "target": "KLI_Articoli.PesoNetto",
+            "rule": {
+                "type": "data",
+                "value": "GoodsData/NetWeight"
+            }
+        },
+        {
+            "target": "KLI_Articoli.PesoLordo",
+            "rule": {
+                "type": "data",
+                "value": "GoodsData/GrossWeight"
+            }
+        },
+        {
+            "target": "KLI_Articoli.Lunghezza",
+            "rule": {
+                "type": "formula",
+                "value": "GoodsData/GrossVolume"
+            }
+        },
+        {
+            "target": "KLI_Articoli.Larghezza",
+            "rule": {
+                "type": "formula",
+                "value": "GoodsData/GrossVolume"
+            }
+        },
+        {
+            "target": "KLI_Articoli.Profondita",
+            "rule": {
+                "type": "formula",
+                "value": "GoodsData/GrossVolume"
+            }
+        },
+        {
+            
+            "target": "KLI_Articoli.PezziMasterBox",
+            "rule": {
+                "type": "data",
+                "value": "/AlternativeUoM/AlternativeUoMRow[ComparableUoM='MASTER']/BaseUoMQty"
+            }
+        },
+        {
+            "target": "KLI_Articoli.PezziInner",
+            "rule": {
+                "type": "data",
+                "value": "/AlternativeUoM/AlternativeUoMRow[ComparableUoM='INNER']/BaseUoMQty"
+            }
+        },
+        {
+            "target": "KLI_Articoli.PezziPallet",
+            "rule": {
+                "type": "data",
+                "value": "/AlternativeUoM/AlternativeUoMRow[ComparableUoM='PALLET']/BaseUoMQty"
+            }
+        },
+        {
+            "target": "KLI_Articoli.DescrizioneEN",
+            "rule": {
+                "type": "data",
+                "value": "LanguageDescription/LanguageDescriptionRow[Language='EN']/Description"
+            }
+        },
+        {
+            "target": "KLI_Articoli.DescrizioneFR",
+            "rule": {
+                "type": "data",
+                "value": "LanguageDescription/LanguageDescriptionRow[Language='FR']/Description"
+            }
+        },
+        {
+            "target": "KLI_Articoli.DescrizioneDE",
+            "rule": {
+                "type": "data",
+                "value": "LanguageDescription/LanguageDescriptionRow[Language='DE']/Description"
+            }
+        },
+        {
+            "target": "KLI_Articoli.DescrizioneIT",
+            "rule": {
+                "type": "data",
+                "value": "LanguageDescription/LanguageDescriptionRow[Language='IT']/Description"
+            }
+        },
+        {
+            "target": "KLI_Articoli.DescrizioneES",
+            "rule": {
+                "type": "data",
+                "value": "LanguageDescription/LanguageDescriptionRow[Language='ES']/Description"
+            }
+        }
+    ]
+}

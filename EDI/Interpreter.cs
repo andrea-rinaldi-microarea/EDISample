@@ -14,7 +14,7 @@ namespace EDI
         public Interpreter(Message msg, string fname)
         {
             message = msg; 
-            reader = new StreamReader(Path.Combine(Directory.GetCurrentDirectory(),"misc","item-data.csv")); 
+            reader = new StreamReader(Path.Combine(Directory.GetCurrentDirectory(),"misc", fname)); 
             csv = new CsvReader(reader);
 
             csv.Configuration.Encoding = Encoding.UTF8;

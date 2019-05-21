@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<maxs:Items xmlns:maxs="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" tbNamespace="ERP.Items.Documents.Items" xTechProfile="k_art">
+  <maxs:Data>
+    <maxs:Items>
+      <maxs:Item>00003</maxs:Item>
+      <maxs:SaleBarCode>554553</maxs:SaleBarCode>
+      <maxs:UseSerialNo>0</maxs:UseSerialNo>
+    </maxs:Items>
+    <maxs:GoodsData>
+      <maxs:NetWeight>3.0</maxs:NetWeight>
+      <maxs:GrossWeight>3.0</maxs:GrossWeight>
+    </maxs:GoodsData>
+    <maxs:AlternativeUoM>
+      <maxs:AlternativeUoMRow>
+        <maxs:ComparableUoM>MASTER</maxs:ComparableUoM>
+        <maxs:BaseUoMQty>18.0</maxs:BaseUoMQty>
+        <maxs:CompUoMQty>1</maxs:CompUoMQty>
+      </maxs:AlternativeUoMRow>
+      <maxs:AlternativeUoMRow>
+        <maxs:ComparableUoM>INNER</maxs:ComparableUoM>
+        <maxs:BaseUoMQty>9.0</maxs:BaseUoMQty>
+        <maxs:CompUoMQty>1</maxs:CompUoMQty>
+      </maxs:AlternativeUoMRow>
+      <maxs:AlternativeUoMRow>
+        <maxs:ComparableUoM>PALLET</maxs:ComparableUoM>
+        <maxs:BaseUoMQty>12.0</maxs:BaseUoMQty>
+        <maxs:CompUoMQty>1</maxs:CompUoMQty>
+      </maxs:AlternativeUoMRow>
+    </maxs:AlternativeUoM>
+  </maxs:Data>
+</maxs:Items>
