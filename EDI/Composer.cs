@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using NLight.IO.Text;
 
@@ -10,11 +11,13 @@ namespace EDI
         private Process process = null;
         private TextWriter stream = null;
         private FixedWidthRecordWriter writer = null;
+        private XMLExtractor extractor = null;
 
-        public Composer(Message msg, Process proc, string fname)
+        public Composer(Message aMessage, Process aProcess, string fname, XMLExtractor aExtractor)
         {
-            message = msg;
-            process = proc;
+            message = aMessage;
+            process = aProcess;
+            extractor = aExtractor;
             stream = new StreamWriter(Path.Combine(Directory.GetCurrentDirectory(), "misc", fname)); 
             writer = new NLight.IO.Text.FixedWidthRecordWriter(stream);
         }
@@ -57,47 +60,64 @@ namespace EDI
             return "";
         }
 
-        public void AddDetail(XMLExtractor extractor)
+        public void Compose()
         {
-            foreach (var segment in message.layout.detail)
+            ComposeSection(message.layout.heading);
+            ComposeSection(message.layout.detail);
+            ComposeSection(message.layout.summary);
+        }
+
+        private void ComposeSection(List<Segment> section)
+        {
+            if (section == null || section.Count == 0)
+                return;
+
+            while (extractor.MoreMessages())
             {
-                if (!HasMappings(segment))
+                foreach (var segment in section)
                 {
-                    if (segment.mandatory)
-                        break; // TODO error
-                    else
-                        continue; 
-                }
-
-                writer.Columns.Clear();
-                int pos = 0;
-                foreach (var field in segment.fields)
-                {
-                    writer.Columns.Add(new FixedWidthRecordColumn(field.name, pos, field.maxLength));
-                    pos += field.maxLength;
-                }
-
-                writer.WriteRecordStart();
-                foreach (var field in segment.fields)
-                {
-                    //@@ TODO predefined
-
-                    var map = GetMapping($"{segment.name}.{field.name}");
-
-                    string value = null;
-                    if (map != null)
-                        value = extractor.GetValue(process.roots.detail, map);
-                    else 
+                    if (!HasMappings(segment))
                     {
-                        if (field.mandatory)
-                            ; // TODO error
+                        if (segment.mandatory)
+                            break; // TODO error
+                        else
+                            continue; 
                     }
-
-                    writer.WriteField(Format(field, value)); 
+                    ComposeSegment(segment);
                 }
-                writer.WriteRecordEnd();
+                writer.BaseWriter.Flush();
             }
-            writer.BaseWriter.Flush();
+        }
+
+        private void ComposeSegment(Segment segment)
+        {
+            writer.Columns.Clear();
+            int pos = 0;
+            foreach (var field in segment.fields)
+            {
+                writer.Columns.Add(new FixedWidthRecordColumn(field.name, pos, field.maxLength));
+                pos += field.maxLength;
+            }
+
+            writer.WriteRecordStart();
+            foreach (var field in segment.fields)
+            {
+                //@@ TODO predefined
+
+                var map = GetMapping($"{segment.name}.{field.name}");
+
+                string value = null;
+                if (map != null)
+                    value = extractor.GetValue(process.roots.detail, map);
+                else 
+                {
+                    if (field.mandatory)
+                        ; // TODO error
+                }
+
+                writer.WriteField(Format(field, value)); 
+            }
+            writer.WriteRecordEnd();
         }
 
         private bool HasMappings(Segment segment)
