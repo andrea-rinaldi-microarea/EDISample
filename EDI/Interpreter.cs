@@ -7,19 +7,19 @@ namespace EDI
 {
     public class Interpreter : IDisposable
     {
-        private CsvReader csv = null;
-        private TextReader reader = null;
+        private CsvReader reader = null;
+        private TextReader stream = null;
         private Message message = null; 
 
         public Interpreter(Message msg, string fname)
         {
             message = msg; 
-            reader = new StreamReader(Path.Combine(Directory.GetCurrentDirectory(),"misc", fname)); 
-            csv = new CsvReader(reader);
+            stream = new StreamReader(Path.Combine(Directory.GetCurrentDirectory(),"misc", fname)); 
+            reader = new CsvReader(stream);
 
-            csv.Configuration.Encoding = Encoding.UTF8;
-            csv.Configuration.Delimiter = ";";
-            csv.Read(); // skip the header
+            reader.Configuration.Encoding = Encoding.UTF8;
+            reader.Configuration.Delimiter = ";";
+            reader.Read(); // skip the header
         }
 
         private int ValueIndex(string[] nspace)
@@ -38,7 +38,7 @@ namespace EDI
                 var nspace = rule.value.Split('.');
                 var valIdx = ValueIndex(nspace);
                 if (valIdx != -1)
-                    return csv[valIdx];
+                    return reader[valIdx];
                 else
                     return null;
             }
@@ -52,7 +52,7 @@ namespace EDI
 
         public bool MoreMessages()
         {
-            return csv.Read();
+            return reader.Read();
         }
 
 #region IDisposable   
@@ -70,8 +70,8 @@ namespace EDI
                 return;
             if(disposing)
             {
+                stream.Dispose();
                 reader.Dispose();
-                csv.Dispose();
                 disposed = true;
             }
         }

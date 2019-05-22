@@ -8,15 +8,15 @@ namespace EDI
     {
         private Message message = null; 
         private Process process = null;
-        private TextWriter writer = null;
-        private FixedWidthRecordWriter recWriter = null;
+        private TextWriter stream = null;
+        private FixedWidthRecordWriter writer = null;
 
-        public Composer(Message msg, Process proc)
+        public Composer(Message msg, Process proc, string fname)
         {
             message = msg;
             process = proc;
-            writer = new StreamWriter(Path.Combine(Directory.GetCurrentDirectory(),"out.txt")); //Path.GetTempFileName());
-            recWriter = new NLight.IO.Text.FixedWidthRecordWriter(writer);
+            stream = new StreamWriter(Path.Combine(Directory.GetCurrentDirectory(), "misc", fname)); 
+            writer = new NLight.IO.Text.FixedWidthRecordWriter(stream);
         }
 
         public void AddDetail(XMLExtractor extractor)
@@ -31,15 +31,15 @@ namespace EDI
                         continue; 
                 }
 
-                recWriter.Columns.Clear();
+                writer.Columns.Clear();
                 int pos = 0;
                 foreach (var field in segment.fields)
                 {
-                    recWriter.Columns.Add(new FixedWidthRecordColumn(field.name, pos, field.maxLength));
+                    writer.Columns.Add(new FixedWidthRecordColumn(field.name, pos, field.maxLength));
                     pos += field.maxLength;
                 }
 
-                recWriter.WriteRecordStart();
+                writer.WriteRecordStart();
                 foreach (var field in segment.fields)
                 {
                     //@@ TODO predefined
@@ -52,7 +52,7 @@ namespace EDI
                             break; // TODO error
                         else
                         {
-                            recWriter.WriteField("default"); 
+                            writer.WriteField("default"); 
                             continue;
                         }
                     }
@@ -61,17 +61,17 @@ namespace EDI
                     if (value != null)
                     {
                         //@@ todo add to buffer
-                        recWriter.WriteField(value); 
+                        writer.WriteField(value); 
                     }
                     else
                     {
                         // apply default
-                        recWriter.WriteField("default"); 
+                        writer.WriteField("default"); 
                     }
                 }
-                recWriter.WriteRecordEnd();
+                writer.WriteRecordEnd();
             }
-            recWriter.BaseWriter.Flush();
+            writer.BaseWriter.Flush();
         }
 
         private bool HasMappings(Segment segment)
@@ -99,8 +99,8 @@ namespace EDI
                 return;
             if(disposing)
             {
+                stream.Dispose();
                 writer.Dispose();
-                recWriter.Dispose();
                 disposed = true;
             }
         }

@@ -62,7 +62,7 @@ namespace EDISample
             var message = Helpers.LoadMessage(process.message);
 
             XMLExtractor extractor = new XMLExtractor("items-*");
-            using (Composer composer = new Composer(message, process))
+            using (Composer composer = new Composer(message, process, "out.txt"))  
             {
                 while (extractor.MoreMessages())
                 {
