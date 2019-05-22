@@ -2,8 +2,9 @@
 <maxs:Items xmlns:maxs="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" tbNamespace="ERP.Items.Documents.Items" xTechProfile="k_art">
   <maxs:Data>
     <maxs:Items>
-      <maxs:Item>00002</maxs:Item>
-      <maxs:SaleBarCode>7654321</maxs:SaleBarCode>
+      <maxs:Item>8034052547505</maxs:Item>
+      <maxs:SaleBarCode>8034052547505</maxs:SaleBarCode>
+      <maxs:Description>47505 - SACCHETTO "CACTUS" H.22.8X19X10CM DISEGNI ASSORTITI</maxs:Description>
       <maxs:UseSerialNo>0</maxs:UseSerialNo>
     </maxs:Items>
     <maxs:GoodsData>

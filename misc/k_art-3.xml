@@ -2,8 +2,9 @@
 <maxs:Items xmlns:maxs="http://www.microarea.it/Schema/2004/Smart/ERP/Items/Items/AllUsers/k_art.xsd" tbNamespace="ERP.Items.Documents.Items" xTechProfile="k_art">
   <maxs:Data>
     <maxs:Items>
-      <maxs:Item>00003</maxs:Item>
-      <maxs:SaleBarCode>554553</maxs:SaleBarCode>
+      <maxs:Item>8034052547512</maxs:Item>
+      <maxs:SaleBarCode>8034052547512</maxs:SaleBarCode>
+      <maxs:Description>47550 - SACCHETTO PORTABOTTIGLIA "CACTUS" H.38X12,5X8.5CM DISEGNI ASSORTITI</maxs:Description>
       <maxs:UseSerialNo>0</maxs:UseSerialNo>
     </maxs:Items>
     <maxs:GoodsData>

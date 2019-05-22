@@ -56,12 +56,22 @@ namespace EDISample
             }
         }
 
+        static string custom(string target, string value)
+        {
+            if (target == "KLI_Articoli.Descrizione1")
+                return value.Substring(0, Math.Min(value.Length,35));
+            if (target == "KLI_Articoli.Descrizione2")
+                return value.Length > 35 ? value.Substring(35, Math.Min(value.Length - 35, 35)) : "";
+
+            return null;
+        }
+
         static void Export()
         {
             var process = Helpers.LoadProcess("BRESSANA-ARTICOLI");
             var message = Helpers.LoadMessage(process.message);
 
-            XMLExtractor extractor = new XMLExtractor(process);
+            XMLExtractor extractor = new XMLExtractor(process, custom);
             using (Composer composer = new Composer(message, process, "out.txt"))  
             {
                 while (extractor.MoreMessages())

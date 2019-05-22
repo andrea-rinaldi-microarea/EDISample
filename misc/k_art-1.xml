@@ -8,7 +8,7 @@
             <maxs:UseSerialNo>false</maxs:UseSerialNo>
         </maxs:Items>
         <maxs:GoodsData>
-            <maxs:NetWeight>1.000000000000000</maxs:NetWeight>
+            <maxs:NetWeight>1</maxs:NetWeight>
             <maxs:GrossWeight>1.000000000000000</maxs:GrossWeight>
             <maxs:GrossVolume>1.000000000000000</maxs:GrossVolume>
         </maxs:GoodsData>

@@ -25,14 +25,14 @@
         {
             "target": "KLI_Articoli.Descrizione1",
             "rule": {
-                "type": "extract",
+                "type": "custom",
                 "value": "Items/Description"
             }
         },
         {
             "target": "KLI_Articoli.Descrizione2",
             "rule": {
-                "type": "extract",
+                "type": "custom",
                 "value": "Items/Description"
             }
         },
@@ -60,22 +60,22 @@
         {
             "target": "KLI_Articoli.Lunghezza",
             "rule": {
-                "type": "formula",
-                "value": "GoodsData/GrossVolume"
+                "type": "literal",
+                "value": "0"
             }
         },
         {
             "target": "KLI_Articoli.Larghezza",
             "rule": {
-                "type": "formula",
-                "value": "GoodsData/GrossVolume"
+                "type": "literal",
+                "value": "0"
             }
         },
         {
             "target": "KLI_Articoli.Profondita",
             "rule": {
-                "type": "formula",
-                "value": "GoodsData/GrossVolume"
+                "type": "literal",
+                "value": "0"
             }
         },
         {

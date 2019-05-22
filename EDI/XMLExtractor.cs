@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,16 +8,20 @@ using System.Xml.XPath;
 
 namespace EDI
 {
+    public delegate string CustomExtractor(string target, string value);
+
     public class XMLExtractor
     {
         string[] files;
         int currFile = 0;
         private XDocument document = null;
         private Process process = null;
+        CustomExtractor custom = null;
 
-        public XMLExtractor(Process proc)
+        public XMLExtractor(Process proc, CustomExtractor cust)
         {
             process = proc;
+            custom = cust;
             //@@todo invoke MagicLink web services
             files = Directory.GetFiles(Path.Combine(Directory.GetCurrentDirectory(),"misc"), process.profile + "*.xml");
         }
@@ -31,7 +36,6 @@ namespace EDI
 
             foreach (var elem in document.Descendants())
                 elem.Name = elem.Name.LocalName;
-
         }
 
         public bool MoreMessages()
@@ -46,24 +50,28 @@ namespace EDI
             return true;
         }
 
-        public string GetValue(string root, Rule rule)
+        public string GetValue(string root, Mapping map)
         {
-            if (rule.type == "data")
+            if (map.rule.type == "data" || map.rule.type == "custom")
             {
-                IEnumerable<XElement> elem = document.XPathSelectElements($"{root}/{rule.value}");
+                IEnumerable<XElement> elem = document.XPathSelectElements($"{root}/{map.rule.value}");
                 try
                 {
-                    return elem.Single().Value;
+                    var value = elem.Single().Value;
+                    if (map.rule.type == "data")
+                        return value;
+                    else // "custom"
+                        return custom(map.target, value);
                 }
-                catch (System.Exception)
+                catch (System.Exception ex)
                 {
                     // @@todo report an error if multiple results
                     return null;
                 }
             }
-            else if (rule.type == "literal")
+            else if (map.rule.type == "literal")
             {
-                return rule.value;
+                return map.rule.value;
             }
             
             return null;

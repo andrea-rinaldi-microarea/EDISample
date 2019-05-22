@@ -19,6 +19,44 @@ namespace EDI
             writer = new NLight.IO.Text.FixedWidthRecordWriter(stream);
         }
 
+        private string Default(Field field)
+        {
+            if (field.type == "text")
+                return "";
+            if (field.type == "numeric")
+                return new string('0', field.maxLength);
+            if (field.type == "boolean")
+                return "N";
+            return "";
+        }
+
+        private string Format(Field field, string value)
+        {
+            if (value == null)
+                return Default(field);
+
+            if (field.type == "text")
+                return value.PadLeft(field.maxLength);
+            if (field.type == "numeric")
+            {
+                if (field.decimals == 0)
+                {
+                    return value.Split('.')[0].PadLeft(field.maxLength).Replace(' ', '0');
+                }
+                else
+                {
+                    var parts = value.Split('.');
+                    var padded = parts[0].PadLeft(field.maxLength - field.decimals) + 
+                                 (parts.Length > 1 ? parts[1].PadRight(field.decimals) : new string('0', field.decimals));
+
+                    return padded.Replace(' ','0');
+                }
+            }
+            if (field.type == "boolean")
+                return value == "0" ? "S" : "N";
+            return "";
+        }
+
         public void AddDetail(XMLExtractor extractor)
         {
             foreach (var segment in message.layout.detail)
@@ -46,27 +84,16 @@ namespace EDI
 
                     var map = GetMapping($"{segment.name}.{field.name}");
 
-                    if (map == null)
+                    string value = null;
+                    if (map != null)
+                        value = extractor.GetValue(process.roots.detail, map);
+                    else 
                     {
                         if (field.mandatory)
-                            break; // TODO error
-                        else
-                        {
-                            writer.WriteField("default"); 
-                            continue;
-                        }
+                            ; // TODO error
                     }
-                    
-                    var value = extractor.GetValue(process.roots.detail, map.rule);
-                    if (value != null)
-                    {
-                        writer.WriteField(value); 
-                    }
-                    else
-                    {
-                        // apply default
-                        writer.WriteField("default"); 
-                    }
+
+                    writer.WriteField(Format(field, value)); 
                 }
                 writer.WriteRecordEnd();
             }
