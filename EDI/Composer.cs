@@ -57,10 +57,9 @@ namespace EDI
                         }
                     }
                     
-                    var value = extractor.GetValue(map.rule);
+                    var value = extractor.GetValue(process.roots.detail, map.rule);
                     if (value != null)
                     {
-                        //@@ todo add to buffer
                         writer.WriteField(value); 
                     }
                     else

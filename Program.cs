@@ -61,7 +61,7 @@ namespace EDISample
             var process = Helpers.LoadProcess("BRESSANA-ARTICOLI");
             var message = Helpers.LoadMessage(process.message);
 
-            XMLExtractor extractor = new XMLExtractor("items-*");
+            XMLExtractor extractor = new XMLExtractor(process);
             using (Composer composer = new Composer(message, process, "out.txt"))  
             {
                 while (extractor.MoreMessages())

@@ -5,7 +5,7 @@
     "document": "ERP.Items.Documents.Items",
     "profile": "k_art",
     "roots": {
-        "detail": "[%%DOC%%]/Items/Data"
+        "detail": "/Items/Data"
     },
     "mappings": [
         {
